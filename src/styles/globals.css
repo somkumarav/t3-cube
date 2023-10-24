@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primaryColor: #847869;
+  --secondaryColor: #fae1c3;
+
+  --primaryBackgroundColor: #202020;
+  /* --primaryBackgroundColor: #151718; */
+  --secondaryBackgroundColor: #1d1d1d;
+  /* --accentColor: #141e26; */
+  --accentColor: #91170c;
+
+  --robotoMono: "Roboto Mono", monospace;
+  --barlow: "Barlow", sans-serif;
+  /* --poppins: "Poppins", sans-serif;
+  --daysOne: "Days One", sans-serif;
+  --monteserratSubrayada: "Montserrat Subrayada", sans-serif;
+  --teko: "Teko", sans-serif;
+  --doHyeon: "Do Hyeon", sans-serif; */
+
+  /* --fontSizes: (
+    "x-large": 2.3rem,
+    "large": 1.5rem,
+    "regular": 1rem,
+    "mysmall": 0.6rem
+  ); */
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
